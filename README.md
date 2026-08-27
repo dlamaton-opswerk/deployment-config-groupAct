@@ -5,8 +5,8 @@
 
 # Steps:
 ```
-git clone git@github.com:opswerks-lab/python-webapp.git
-cd python-webapp
+git clone git@github.com:opswerks-academy/python-flaskapp.git
+cd python-flaskapp
 pip install -r requirements.txt
 flask run
 
