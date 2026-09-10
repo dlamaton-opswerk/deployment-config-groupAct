@@ -1,5 +1,5 @@
 # Use an official, lightweight Python runtime as a parent image
-FROM python:3.12-slim-bookworm
+ROM python:3.12-slim-bookworm
 
 # Set environment variables to optimize Python behavior
 ENV PYTHONDONTWRITEBYTECODE=1
