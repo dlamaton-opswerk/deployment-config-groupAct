@@ -40,7 +40,7 @@ spec:
     }
     environment {
         // CONFIGURE THESE FOUR VARIABLES:
-        DOCKER_USER      = 'dockerlamatz’
+        DOCKER_USER      = 'dockerlamatz'
         IMAGE_NAME       = 'python-flaskapp'
         DEPLOY_REPO_HOST = 'github.com/dlamaton-opswerk/deployment-config.git'
         GIT_CRED_ID      = 'c5918c98-9c4d-4309-b141-8f39d1316b50'
