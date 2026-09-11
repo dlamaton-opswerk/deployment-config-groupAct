@@ -1,0 +1,14 @@
+apiVersion: kustomize.toolkit.fluxcd.io/v1
+kind: Kustomization
+metadata:
+  name: python-flaskapp
+  namespace: flux-system
+spec:
+  interval: 1m
+  targetNamespace: flask-app
+  sourceRef:
+    kind: GitRepository
+    name: flux-system
+  path: "./apps/python-flaskapp"
+  prune: true
+  wait: true
