@@ -17,6 +17,6 @@ spec:
    spec:
      containers:
      - name: flask-app
-       image: dockerlamatz/python-flaskapp:v9-687a2f7
+       image: dockerlamatz/python-flaskapp:v11-467fa9f
        ports:
        - containerPort: 5000
