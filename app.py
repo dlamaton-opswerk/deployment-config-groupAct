@@ -4,7 +4,7 @@ app = Flask(__name__)
 
 @app.route('/')
 def hello():
-    return {"VERSION": "1.0.0"}
+    return {"VERSION": "2.0.0"}
 
 if __name__ == '__main__':
     # Bind to 0.0.0.0 so it is accessible outside the container
